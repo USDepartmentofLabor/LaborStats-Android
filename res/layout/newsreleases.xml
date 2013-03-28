@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+   
+  > 
+   <!-- <TextView android:id="@+id/title"
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:textSize="17dp"
+		android:typeface="sans"		
+		android:layout_alignParentLeft="true"		
+		android:singleLine="false"
+		android:minLines="2"
+		android:gravity="center_vertical"
+		android:text="  News Releases "
+		android:textColor="#FFFFFF"
+		android:background="#747170"
+		android:drawableBottom="@android:drawable/divider_horizontal_bright"		
+		/> -->
+		 
+	<ListView android:id="@+id/news_listview"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"	  
+	  />
+	  
+</LinearLayout>

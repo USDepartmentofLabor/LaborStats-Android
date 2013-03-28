@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="60dp"
+    		android:background="#FFFFFF"
+    
+  
+  > 
+<TextView android:id="@+id/nr_dol_heading"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:textSize="17dp"
+		android:typeface="sans"		
+		android:layout_alignParentLeft="true"
+		android:singleLine="false"
+		android:minLines="2"
+		android:gravity="center_vertical"
+		android:text=" Employment and Training Administration "
+		android:textColor="#FFFFFF"
+		android:background="#747170"
+			
+		/>
+		<!-- android:background="#150517" , android:drawableLeft="@drawable/bls" -->
+<TextView android:id="@+id/nr_bls_heading"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:textSize="17dp"
+		android:typeface="sans"		
+		android:layout_alignParentLeft="true"		
+		android:singleLine="false"
+		android:minLines="2"
+		android:gravity="center_vertical"
+		android:text="  Bureau of Labor Statistics "
+		android:textColor="#FFFFFF"
+		android:background="#747170"		
+		/>
+ <TextView android:id="@+id/news_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="17dp"
+		android:typeface="sans"		
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="10dp"
+		android:layout_toLeftOf="@+id/checkbox_id"
+		android:scrollHorizontally="true"
+		android:ellipsize="marquee"
+		android:textColor="#544E4F"
+		
+		/> 
+		
+		
+  <ImageView android:id="@+id/arrow"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"		
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="4dp"
+		android:layout_centerVertical="true"
+		android:background="@drawable/arow_right_on"
+		/>
+		
+	<TextView android:id="@+id/news_subtext"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="15dp"
+		android:typeface="sans"		
+		android:layout_alignParentLeft="true"
+		android:layout_below="@+id/news_title"
+		android:layout_marginLeft="10dp"
+		android:layout_toLeftOf="@+id/arrow"
+		android:text="Loading ...."	
+	    android:textColor="#6D7B8D"
+					
+		/> 	
+		
+</RelativeLayout>

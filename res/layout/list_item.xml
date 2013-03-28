@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="60dp"
+  android:background="#FFFFFF"
+  android:descendantFocusability="blocksDescendants"
+  >
+  
+ 
+<TextView android:id="@+id/dol_heading"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:textSize="17dp"
+		android:typeface="sans"		
+		android:layout_alignParentLeft="true"
+		android:singleLine="false"
+		android:minLines="2"
+		android:gravity="center_vertical"
+		
+		android:text=" Employment and Training Administration "
+		android:textColor="#FFFFFF"
+		
+		android:background="#747170"
+			
+		/>
+		<!-- android:background="#150517" , android:drawableLeft="@drawable/bls" -->
+<TextView android:id="@+id/bls_heading"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:textSize="17dp"
+		android:typeface="sans"		
+		android:layout_alignParentLeft="true"		
+		android:singleLine="false"
+		android:minLines="2"
+		android:gravity="center_vertical"
+		
+		android:text="  Bureau of Labor Statistics "
+		android:textColor="#FFFFFF"
+		
+		android:background="#747170"		
+		/>
+		<!-- android:background="#4C4646" , android:drawableLeft="@drawable/bls" -->
+ 
+ <TextView android:id="@+id/maintitle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="17dp"
+		android:typeface="sans"		
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="10dp"
+		android:layout_toLeftOf="@+id/checkbox_id"
+		android:layout_marginTop="10dp"
+		android:scrollHorizontally="true"
+		android:textColor="#000000"
+		android:ellipsize="marquee"	
+			
+		/> 
+		
+  <CheckBox android:id="@+id/checkbox_id"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"		
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="4dp"
+		android:layout_centerVertical="true"
+		
+		
+		/>
+		
+	<TextView android:id="@+id/subtitle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="15dp"
+		android:typeface="sans"		
+		android:layout_alignParentLeft="true"
+		android:layout_below="@+id/maintitle"
+		android:layout_marginLeft="10dp"
+		android:layout_toLeftOf="@+id/checkbox_id"
+		android:scrollHorizontally="true"
+		android:ellipsize="marquee"
+		android:text="Loading ...."
+		android:textColor="#6D7B8D"
+		
+		/> 	
+		
+</RelativeLayout>

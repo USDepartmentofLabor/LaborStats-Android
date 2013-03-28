@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CurrentNumbersList!</string>
+    
+    <string name="app_name">Labor Stats</string><string name="employement_title">Employment and Training Administration</string>
+    <string name="bls_title">Bureau of Labor Statistics </string>
+</resources>
